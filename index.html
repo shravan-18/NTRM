@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <title>Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology</title> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="icon" href="./images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./js/fontawesome.all.min.js"></script>
+  <script src="./js/bulma-carousel.min.js"></script>
+  <script src="./js/bulma-slider.min.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology</h1>
+          <!-- Authors Section -->
+          <div class="publication-authors" style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem;">
+            <span class="author-block">
+              Shravan&nbsp;Venkatraman<sup>1,2</sup>,
+            </span>
+            <span class="author-block">
+              Muthu&nbsp;Subash&nbsp;Kavitha<sup>2</sup>,
+            </span>
+            <span class="author-block">
+              Joe&nbsp;Dhanith&nbsp;P&nbsp;R<sup>1</sup>,
+            </span>
+            <span class="author-block">
+              V&nbsp;Manikandarajan<sup>3</sup>,
+            </span>
+            <span class="author-block">
+              Jia&nbsp;Wu<sup>4</sup>
+            </span>
+          </div>
+
+          <!-- Affiliations Section -->
+          <div class="publication-authors" style="font-size: 0.95rem; color: #555; line-height: 1.6;">
+            <span class="author-block"><sup>1</sup>School of Computer Science Engineering, Vellore Institute of Technology, Chennai, India</span><br>
+            <span class="author-block"><sup>2</sup>School of Information and Data Sciences, Nagasaki University, Nagasaki, Japan</span><br>
+            <span class="author-block"><sup>3</sup>School of Mechanical, Electrical and Manufacturing Engineering, Loughborough University, UK</span><br>
+            <span class="author-block"><sup>4</sup>Department of Imaging Physics, MD Anderson Cancer Center, The University of Texas, Houston, USA</span>
+          </div>
+
+          <br>
+          <h2 class="subtitle has-text-centered">
+            <b style="color:tomato;">MICCAI 2025 Workshops (Under Review)</b>
+          </h2>
+          <div class="column has-text-centered" style="margin-top: -15px;">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Poster Link. -->
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-images"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span>
+              <!-- arXiv Link. -->
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/shravan-18/NTRM" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                </a>
+              </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+        Neural encoding of inter-tissue dependencies enables structurally coherent predictions in boundary-dense regions for histopathology segmentation.  
+      </h2>
+    </div>
+  </div>
+</section>
+
+<br>
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="./assets/pipeline.png" alt="Teaser" style="width: 850px; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 10px auto 0 auto; font-size: 16px; max-width: 850px;">
+  NTRM framework pipeline showing CNN-based encoding, initial segmentation, TRM module, and final decoding for relationally-informed histological segmentation.
+</div>
+<br>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Histopathology image segmentation is essential for delineating tissue structures in skin cancer diagnostics, but modeling spatial context and inter-tissue relationships remains a challenge, especially in regions with overlapping or morphologically similar tissues. Current convolutional neural network (CNN)-based approaches operate primarily on visual texture, often treating tissues as independent regions and failing to encode biological context. To this end, we introduce Neural Tissue Relation Modeling (NTRM), a novel segmentation framework that augments CNNs with a tissue-level graph neural network to model spatial and functional relationships across tissue types. NTRM constructs a graph over predicted regions, propagates contextual information via message passing, and refines segmentation through spatial projection. Unlike prior methods, NTRM explicitly encodes inter-tissue dependencies, enabling structurally coherent predictions in boundary-dense zones. On the benchmark Histopathology Non-Melanoma Skin Cancer Segmentation Dataset, NTRM outperforms state-of-the-art methods, achieving a robust Dice similarity coefficient that is 4.9\% to 31.25\% higher than the best-performing models among the evaluated approaches. Our experiments indicate that relational modeling offers a principled path toward more context-aware and interpretable histological segmentation, compared to local receptive-field architectures that lack tissue-level structural awareness. Our code will be released upon acceptance.  
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<center>
+  <img src="./assets/TRM.png" alt="NTRM" style="width:850px;height:420px;">
+</center>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Method. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3"><b>Method</b></h2>
+        <div class="content has-text-justified">
+          <p>
+          Neural Tissue Relational Modeling (NTRM) explicitly models the biological relationships between tissue types through a GNN integrated with traditional CNN feature extraction. Our approach constructs a tissue-level graph where nodes represent different tissue types and edges encode their spatial and functional relationships, learning tissue-specific embeddings that capture both visual characteristics and biological context. We do this by combining an initial draft segmentation with a tissue relation module (TRM) that refines predictions by incorporating learned tissue dependencies.  
+          The TRM constructs a tissue-level graph $\mathcal{G} = (\mathcal{V}, \mathcal{E})$ from the coarse segmentation map,
+          where each node represents a predicted tissue class and edges indicate contextual or spatial proximity.
+          Softmax-normalized class probabilities are thresholded to generate binary masks for each tissue, which define the spatial extent of each node.
+          Intermediate CNN features $\mathcal{D}_2$ are then masked and globally pooled to produce class-specific node embeddings.
+          Edges are constructed by examining spatial adjacency between tissue masks, allowing the graph to capture biologically relevant neighborhood relationships.
+          This explicit graph representation enables TRM to reason over tissue co-occurrence and context — modeling structured interactions that convolutional layers alone cannot express.
+          A graph neural network propagates messages over $\mathcal{G}$, refining node embeddings before projecting them back into the spatial domain.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Method. -->
+  </div>
+</section>
+
+<section class="section"> 
+  <div class="container is-max-desktop"> 
+    <h2 class="title is-3 has-text-centered"><b>Results</b></h2> 
+    <br> 
+    <center> 
+      <img src="./assets/comparison.png" alt="Qualitative Comparison" style="width:800px;height:600px;"> 
+    </center> 
+    <br>
+
+    <div style="text-align: center;">
+      <p style="text-align: justify; margin: 0 auto 20px auto; max-width: 850px;">
+        Our method demonstrates superior boundary adherence and suppression of false positives, particularly for background (BKG) and keratin (KER) regions. In BCC, baseline and SOTA methods frequently misclassify basal compartments as SCC (green) or BKG (black), whereas our prediction more precisely preserves the epithelial-basal interface with reduced false activations. For SCC and IEC, our model shows significantly better class differentiation between adjacent structures like INF, RET, and FOL, with visibly cleaner delineations.
+      </p>
+    </div>
+
+
+
+    <br> 
+    <center> 
+      <img src="./assets/improvement.png" alt="Improvement" style="width:800px;"> 
+    </center> 
+    <br>
+
+    <div style="text-align: center;">
+      <p style="text-align: justify; margin: 0 auto 20px auto; max-width: 850px;">
+      We show the operational impact of the TRM module on segmentation refinement in the above figure. The initial predictions, produced by the CNN decoder in isolation, show failure modes near complex boundaries - particularly at BCC-reticular interfaces and epithelial structures adjacent to keratin deposits. These misclassifications arise due to insufficient contextual reasoning across disjoint but functionally correlated tissue types. 
+      As shown in the pipeline. spatially contiguous regions are treated as graph nodes and connected via context-aware edges, allowing the network to explicitly reason over inter-tissue dependencies. The refined segmentation output captures granular class boundaries and suppresses spurious activations, as visually evident in the improvement overlay (right).   
+      </p>
+    </div>
+
+
+    
+  </div>
+</section>
+
+
+
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code></code></pre>
+  </div>
+</section> -->
+
+
+<footer class="footer">
+  <div class="container">
+    <!-- <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div> -->
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
