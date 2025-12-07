@@ -1,9 +1,5 @@
 # Neural Tissue Relation Modeling (NTRM)
 
-<div align=center>
-<img src="assets/MICCAI_logo.jpeg" width="400px"/> 
-</div> 
-
 > **Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology**  
 > *Shravan Venkatraman, Muthu Subash Kavitha, Joe Dhanith P R*  
 > Medical Image Computing and Computer Assisted Intervention (MICCAI) Workshops (ISIC 2025)
