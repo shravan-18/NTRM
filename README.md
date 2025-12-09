@@ -4,7 +4,7 @@
 > *Shravan Venkatraman, Muthu Subash Kavitha, Joe Dhanith P R*  
 > Medical Image Computing and Computer Assisted Intervention (MICCAI) Workshops (ISIC 2025)
 
-#### [project page]() | [paper]()
+#### [project page](https://shravan-18.github.io/NTRM/) | [paper](https://arxiv.org/abs/2512.06949)
 
 A novel approach for histopathology image segmentation that explicitly models tissue-type relationships through graph-based reasoning.
 
