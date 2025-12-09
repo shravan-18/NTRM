@@ -139,15 +139,18 @@ python evaluate.py --checkpoint ./checkpoints/ntrm_best_model.pth --data_root ./
 ```
 
 
-<!-- ## Citation
+## Citation
 
-If you find this code useful for your research, please consider citing our paper:
+If you use this code or find our work helpful, please cite the following paper:
 
 ```bibtex
-@inproceedings{ntrm2025,
-  title={Neural Tissue Relation Modeling for Histopathology Image Segmentation},
-  author={Author, A. and Author, B.},
-  booktitle={Proceedings of the Conference},
-  year={2025}
+@misc{venkatraman2025visualfeaturesneuraltissue,
+      title={Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology}, 
+      author={Shravan Venkatraman and Muthu Subash Kavitha and Joe Dhanith P R and V Manikandarajan and Jia Wu},
+      year={2025},
+      eprint={2512.06949},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.06949}, 
 }
-``` -->
+```
