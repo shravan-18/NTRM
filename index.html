@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- <title>Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology</title> -->
+  <title>Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -71,32 +71,23 @@
           </div>
 
           <br>
-          <!-- <h2 class="subtitle has-text-centered">
-            <b style="color:tomato;">MICCAI 2025 Workshops (Under Review)</b>
-          </h2> -->
+          <h2 class="subtitle has-text-centered">
+            <b style="color:tomato;">CVPRW [PHAROS-AIF-MIH] 2026 &nbsp;🎤 Oral</b>
+          </h2>
           <div class="column has-text-centered" style="margin-top: -15px;">
             <div class="publication-links">
               <!-- PDF Link. -->
-              <!-- <span class="link-block">
-                <a href="#" class="external-link button is-normal is-rounded is-dark">
+              <span class="link-block">
+                <a href="https://openaccess.thecvf.com/content/CVPR2026W/PHAROS-AIF-MIH/html/Venkatraman_Can_We_Go_Beyond_Visual_Features_Neural_Tissue_Relation_Modeling_CVPRW_2026_paper.html" class="external-link button is-normal is-rounded is-dark" target="_blank" rel="noopener noreferrer">
                   <span class="icon">
                     <i class="fas fa-file-pdf"></i>
                   </span>
                   <span>Paper</span>
                 </a>
-              </span> -->
-              <!-- Poster Link. -->
-              <!-- <span class="link-block">
-                <a href="#" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fas fa-images"></i>
-                  </span>
-                  <span>Poster</span>
-                </a>
-              </span> -->
+              </span>
               <!-- arXiv Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2512.06949" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/abs/2512.06949" class="external-link button is-normal is-rounded is-dark" target="_blank" rel="noopener noreferrer">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
                   </span>
@@ -105,7 +96,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/shravan-18/NTRM" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://github.com/shravan-18/NTRM" class="external-link button is-normal is-rounded is-dark" target="_blank" rel="noopener noreferrer">
                   <span class="icon">
                     <i class="fab fa-github"></i>
                   </span>
@@ -157,8 +148,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Histopathology image segmentation is essential for delineating tissue structures in skin cancer diagnostics, but modeling spatial context and inter-tissue relationships remains a challenge, especially in regions with overlapping or morphologically similar tissues. Current convolutional neural network (CNN)-based approaches operate primarily on visual texture, often treating tissues as independent regions and failing to encode biological context. To this end, we introduce Neural Tissue Relation Modeling (NTRM), a novel segmentation framework that augments CNNs with a tissue-level graph neural network to model spatial and functional relationships across tissue types. NTRM constructs a graph over predicted regions, propagates contextual information via message passing, and refines segmentation through spatial projection. Unlike prior methods, NTRM explicitly encodes inter-tissue dependencies, enabling structurally coherent predictions in boundary-dense zones. On the benchmark Histopathology Non-Melanoma Skin Cancer Segmentation Dataset, NTRM outperforms state-of-the-art methods, achieving a robust Dice similarity coefficient that is 4.9\% to 31.25\% higher than the best-performing models among the evaluated approaches. Our experiments indicate that relational modeling offers a principled path toward more context-aware and interpretable histological segmentation, compared to local receptive-field architectures that lack tissue-level structural awareness. Our code will be released upon acceptance.  
-          </p>
+            Histopathology image segmentation is essential for delineating tissue structures in skin cancer diagnostics, but modeling spatial context and inter-tissue relationships remains a challenge, especially in regions with overlapping or morphologically similar tissues. Current convolutional neural network (CNN)-based approaches operate primarily on visual texture, often treating tissues as independent regions and failing to encode biological context. To this end, we introduce Neural Tissue Relation Modeling (NTRM), a novel segmentation framework that augments CNNs with a tissue-level graph neural network to model spatial and functional relationships across tissue types. NTRM constructs a graph over predicted regions, propagates contextual information via message passing, and refines segmentation through spatial projection. Unlike prior methods, NTRM explicitly encodes inter-tissue dependencies, enabling structurally coherent predictions in boundary-dense zones. On the benchmark Histopathology Non-Melanoma Skin Cancer Segmentation Dataset, NTRM outperforms state-of-the-art methods, achieving a robust Dice similarity coefficient that is 4.9\% to 31.25\% higher than the best-performing models among the evaluated approaches. Our experiments indicate that relational modeling offers a principled path toward more context-aware and interpretable histological segmentation, compared to local receptive-field architectures that lack tissue-level structural awareness.           </p>
         </div>
       </div>
     </div>
@@ -234,14 +224,12 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{venkatraman2025visualfeaturesneuraltissue,
-      title={Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology}, 
-      author={Shravan Venkatraman and Muthu Subash Kavitha and Joe Dhanith P R and V Manikandarajan and Jia Wu},
-      year={2025},
-      eprint={2512.06949},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2512.06949}, 
+    <pre><code>@inproceedings{venkatraman2026can,
+  title={Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology},
+  author={Venkatraman, Shravan and Kavitha, Muthu Subash and Manikandarajan, V and Wu, Jia and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={6427--6437},
+  year={2026}
 }</code></pre>
   </div>
 </section>
