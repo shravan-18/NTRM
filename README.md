@@ -1,10 +1,18 @@
 # Neural Tissue Relation Modeling (NTRM)
 
-> **Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology**  
-> *Shravan Venkatraman, Muthu Subash Kavitha, Joe Dhanith P R*  
-> Medical Image Computing and Computer Assisted Intervention (MICCAI) Workshops (ISIC 2025)
+<div align="center">
 
-#### [project page](https://shravan-18.github.io/NTRM/) | [paper](https://arxiv.org/abs/2512.06949)
+[![CVPR 2026](https://img.shields.io/badge/CVPR-2026%20Workshops-blue)](https://openaccess.thecvf.com/content/CVPR2026W/PHAROS-AIF-MIH/html/Venkatraman_Can_We_Go_Beyond_Visual_Features_Neural_Tissue_Relation_Modeling_CVPRW_2026_paper.html)
+[![arXiv](https://img.shields.io/badge/arXiv-2512.06949-b31b1b.svg)](https://arxiv.org/abs/2512.06949)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+</div>
+
+> **Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology**  
+> *Shravan Venkatraman, Muthu Subash Kavitha, V Manikandarajan, Jia Wu*  
+> Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops 2026 [PHAROS-AIF-MIH] 🎤 **Oral**
+
+#### [project page](https://shravan-18.github.io/NTRM/) | [paper](https://openaccess.thecvf.com/content/CVPR2026W/PHAROS-AIF-MIH/html/Venkatraman_Can_We_Go_Beyond_Visual_Features_Neural_Tissue_Relation_Modeling_CVPRW_2026_paper.html) | [arXiv](https://arxiv.org/abs/2512.06949) | [code](https://github.com/shravan-18/NTRM)
 
 A novel approach for histopathology image segmentation that explicitly models tissue-type relationships through graph-based reasoning.
 
@@ -40,8 +48,8 @@ The TRM consists of four main components:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/username/ntrm.git
-cd ntrm
+git clone https://github.com/shravan-18/NTRM.git
+cd NTRM
 ```
 
 2. Create a virtual environment:
@@ -144,13 +152,11 @@ python evaluate.py --checkpoint ./checkpoints/ntrm_best_model.pth --data_root ./
 If you use this code or find our work helpful, please cite the following paper:
 
 ```bibtex
-@misc{venkatraman2025visualfeaturesneuraltissue,
-      title={Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology}, 
-      author={Shravan Venkatraman and Muthu Subash Kavitha and Joe Dhanith P R and V Manikandarajan and Jia Wu},
-      year={2025},
-      eprint={2512.06949},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2512.06949}, 
+@inproceedings{venkatraman2026can,
+  title={Can We Go Beyond Visual Features? Neural Tissue Relation Modeling for Relational Graph Analysis in Non-Melanoma Skin Histology},
+  author={Venkatraman, Shravan and Kavitha, Muthu Subash and Manikandarajan, V and Wu, Jia and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={6427--6437},
+  year={2026}
 }
 ```
